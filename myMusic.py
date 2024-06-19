@@ -8,5 +8,7 @@ music = {
     "sunflower": "https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P",
     "thank u, next": "https://open.spotify.com/track/3e9HZxeyfWwjeyPAMmWSSQ",
     "old town road": "https://open.spotify.com/track/6u7jPi22kF8CTQ3rb9DHE7",
-    "7 rings": "https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF"
+    "7 rings": "https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF",
+    "holiday": "https://open.spotify.com/track/6zFMeegAMYQo0mt8rXtrli",
+    "tum ho":"https://open.spotify.com/track/7uNnlVit5qDvfOje0pqICF?si=5e73ae53276946ee",
 }
