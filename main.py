@@ -19,8 +19,16 @@ r = sr.Recognizer()  # Speech recognition engine
 engine = pyttsx3.init()  # Text-to-speech engine
 
 # API keys
-weather_api_key = "470d35de76964208c7f1334b41076ad5"
-currency_api_key = '8e1e6af5ee2d1414b58d0f9c'
+import os
+
+# Read API keys from environment variables
+weather_api_key = os.getenv("WEATHER_API_KEY")
+currency_api_key = os.getenv("CURRENCY_API_KEY")
+
+# Ensure to handle cases where the keys might not be set
+if not weather_api_key or not currency_api_key:
+    raise ValueError("API keys are not set in the environment variables")
+
 BASE_URL = f'https://v6.exchangerate-api.com/v6/{currency_api_key}/latest/'
 
 # Function to convert currency using ExchangeRate-API
